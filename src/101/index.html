@@ -1,0 +1,68 @@
+<html>
+<head>
+  <style type="text/css">
+    svg {
+      stroke: #000;
+      stroke-width: 5px;
+      fill: none;
+    }
+  </style>
+</head>
+<body>
+  <svg width="750px" height="500px">
+    <defs>
+      <!-- Left align -->
+      <g id="icon-leftalign">
+          <line x1="3" y1="3" x2="48" y2="3" />
+          <line x1="3" y1="19" x2="65" y2="19" />
+          <line x1="3" y1="35" x2="48" y2="35" />
+          <line x1="3" y1="51" x2="65" y2="51" />
+      </g>
+
+      <!-- Right caret -->
+      <g id="icon-rightcaret">
+        <polyline points="3 3 30 28 3 53" />
+      </g>
+
+      <!-- Browser -->
+      <symbol id="icon-browser" viewBox="0 0 86 86">
+        <rect x="3" y="3" width="80" height="60" />
+        <line x1="3" y1="19" x2="83" y2="19" />
+        <line x1="20" y1="3" x2="20" y2="19" />
+      </symbol>
+
+      <!-- Alert -->
+      <symbol id="icon-alert" viewBox="0 0 86 86">
+        <ellipse cx="43" cy="43" rx="40" ry="40" />
+        <line style="stroke-width: 8; stroke-linecap: round;" x1="43" y1="19" x2="43" y2="48" />
+        <ellipse style="fill: black" cx="43" cy="65" rx="5" ry="5" />
+      </symbol>
+
+      <!-- Play -->
+      <symbol id="icon-play" viewBox="0 0 86 86">
+        <ellipse cx="43" cy="43" rx="40" ry="40" />
+        <polygon points="35 23, 60 43, 35 63" />
+      </symbol>
+
+      <!-- Download -->
+      <symbol id="icon-download" viewBox="0 0 64 71">
+        <path d="
+        M 18 3
+        L 46 3
+        L 46 40
+        L 61 40
+        L 32 68
+        L 3 40
+        L 18 40
+        Z" />
+      </symbol>
+    </defs>
+    <use href="#icon-leftalign" />
+    <use href="#icon-browser" x="200" y="100" width="75" width="75" />
+    <use href="#icon-rightcaret" x="100" y="100" />
+    <use href="#icon-alert" x="100" y="200" width="100" height="100" />
+    <use href="#icon-play" x="200" y="200" width="50" height="50" />
+    <use href="#icon-download" x="300" y="200" width="50" height="50" />
+ </svg>
+</body>
+</html>
